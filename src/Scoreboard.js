@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { createContext } from 'react';
 
 import "./Scoreboard.css"; // For custom styles
 
@@ -41,16 +40,23 @@ function Scoreboard() {
 
   // Initialize each team's scores with target numbers if they don't exist
   return (
-    <div className="scoreboard">
-      <h1>Dart Cricket Scoreboard</h1>
-      <div className="target-row">
-        <div className="target-cell">T3</div>
-        <div className="target-cell">T1</div>
-        <div className="target-cell">Target</div>
-        <div className="target-cell">T2</div>
-        <div className="target-cell">T4</div>
-      </div >
-      {targets.map(target => <Target key={target} teams={teams} target={target} setTeams={setTeams} />)}
+    <div className="scoreboard-container">
+      <div className="scoreboard">
+        <div className="scoreboard-title">
+          <h1 className="text-4xl">Dart Cricket Scoreboard</h1>
+          <button class="bg-transparent hover:bg-green-900 text-white font-semibold hover:text-white py-2 px-4 border border-green-900 hover:border-transparent rounded">
+            Reset
+          </button>
+        </div>
+        <div className="target-row">
+          <div className="target-cell">T3</div>
+          <div className="target-cell">T1</div>
+          <div className="target-cell">Target</div>
+          <div className="target-cell">T2</div>
+          <div className="target-cell">T4</div>
+        </div >
+        {targets.map(target => <Target key={target} teams={teams} target={target} setTeams={setTeams} />)}
+      </div>
     </div>
   );
 }

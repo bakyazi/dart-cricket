@@ -9,6 +9,28 @@ body {
     overflow: auto;
 }
 
+.scoreboard-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.scoreboard-container {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #16281e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 .scoreboard {
     max-width: 800px;
     width: 100%;
