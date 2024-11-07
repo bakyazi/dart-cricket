@@ -44,7 +44,8 @@ function Scoreboard() {
       <div className="scoreboard">
         <div className="scoreboard-title">
           <h1 className="text-4xl">Dart Cricket Scoreboard</h1>
-          <button class="bg-transparent hover:bg-green-900 text-white font-semibold hover:text-white py-2 px-4 border border-green-900 hover:border-transparent rounded">
+          <button class="bg-transparent hover:bg-green-900 text-white font-semibold hover:text-white py-2 px-4 border border-green-900 hover:border-transparent rounded"
+            onClick={() => { setTeams(defaultScores) }}>
             Reset
           </button>
         </div>
