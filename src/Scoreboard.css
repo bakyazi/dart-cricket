@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    overflow: auto;
+}
+
+.scoreboard {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1e3628;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.target-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 380px; */
+}
+
+.target-cell {
+    display: grid;
+    place-items: center;
+    width: 20%;
+    height: 4rem;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cross-icon {
+    width: 100%;
+    height: 100%;
+}
