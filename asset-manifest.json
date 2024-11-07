@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dart-cricket/static/css/main.da6155de.css",
-    "main.js": "/dart-cricket/static/js/main.55c26339.js",
+    "main.js": "/dart-cricket/static/js/main.7cad9480.js",
     "static/js/453.68d814ce.chunk.js": "/dart-cricket/static/js/453.68d814ce.chunk.js",
     "index.html": "/dart-cricket/index.html",
     "main.da6155de.css.map": "/dart-cricket/static/css/main.da6155de.css.map",
-    "main.55c26339.js.map": "/dart-cricket/static/js/main.55c26339.js.map",
+    "main.7cad9480.js.map": "/dart-cricket/static/js/main.7cad9480.js.map",
     "453.68d814ce.chunk.js.map": "/dart-cricket/static/js/453.68d814ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da6155de.css",
-    "static/js/main.55c26339.js"
+    "static/js/main.7cad9480.js"
   ]
 }
